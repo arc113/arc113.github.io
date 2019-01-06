@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="p.css">
+  </head>
+
+	<script>
+	
+		var h = $(window).height();
+		var w = $(window).width();
+		
+		h = 1*h;
+		w = 1*w;
+		
+		var l = 1366;
+		var b = 1000;
+		
+		var header = footer = (100/b)*h;
+		var banner = (300/b)*h;
+		var main_x = (1166/l)*w;
+		var main_y = (480/b)*h;
+		var yellow_x = (500/1166)*main_x;
+		var yellow_y = main_y;
+		var orange_x = green_x = (656/1166)*main_x;
+		var orange_y = (280/480)*main_y;
+		var green_y = (190/480)*main_y;
+    var purple_x = (290/500)*yellow_x;
+		var purple_y = (360/480)*yellow_y;
+		var p_top_margin = (20/b)*h;
+		var p_left_margin = -1*(60/l)*w;
+		var m_top_margin = m_bottom_margin = (10/b)*h;
+     var def_margin = (100/b)*h;
+     
+		$("#d1").css("height", h1);
+		$("#d2").css("height", h2);
+		$("#d3").css("height", h3);
+		
+		$("#d4").css("height", h4);
+	</script>
+	
+	
+  <body>
+  
+    <header>
+    
+    
+      <div id="head1" >
+        <img id="logo" src="logo.jpg" height="60" width="60"> 
+      </div>
+      
+        <div id="head2">
+          <ul id="ul1">
+            <li> <a href="#"> Home </a> </li>
+            <li> <a href="#"> Services </a></li>
+            <li> <a href="#"> Profile </a></li>
+            <li> <a href="#"> Contact Us </a></li>          
+          </ul>
+        </div>
+        
+        
+     </header>
+        
+    <sidebar>
+      <div id="banner">
+      <h1> BANNER </h1>
+      <img id="arr_l" src="left.png">
+      <img id="arr_r" src="right.png">
+      </div>
+     </sidebar>
+        
+    <div id="left">
+      <div id="linner"> </div>
+    </div>
+  
+    <div id="rupper">
+    
+    
+    <form>
+    
+      <input type="text" /> <br>
+      <select>
+        <option value="1"> A </option>
+       </select>
+          
+    </form>
+    
+    <button> Submit </button>
+    
+    
+    </div>
+
+
+    <div id="rlower">
+    </div>
+
+
+    <footer>
+    
+    <ul id="ul2">
+      <li> <a href="#"> Home </li>
+      <li> <a href="#"> Services </li>
+      <li> <a href="#"> Profile </li>
+      <li> <a href="#"> Contact Us </li>          
+    </ul>
+
+    </footer>
+        
+        
+  </body>
+
+
+
+</html>

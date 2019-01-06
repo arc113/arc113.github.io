@@ -1,0 +1,117 @@
+  body{
+    color: white;
+    margin: 0px 0px 0px 0px;
+  }
+  header{
+  background-color: #DADADA;
+  }
+  
+  #head1{
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  #head2{
+     position: relative;
+     float: right;
+    width: 70%;
+    height: 100%;    
+  }
+   
+  #head2 ul{
+    float: right;
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  #head2 li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  footer ul{
+    position: relative;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  footer li{
+    display: inline;
+    margin-right: 10px; 
+  }
+  li:hover{
+    background-color: black;
+  }
+  #banner{
+    width: 100%;
+    background-color: #0ca9c9;
+    position: relative;
+    text-align: center;
+  }
+  h1{
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+  }  
+  #middle{
+    width: 80%;
+    margin: auto;
+  }
+  #left{
+    background-color: #ffd776;
+    height: 100%;
+    width: 40%;
+    float: left;    
+  }
+  #linner{
+    background-color: #cfafd7;
+    width: 50%;
+    height: 80%;
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  #rupper{
+    background-color: #ec853e;
+    float: right;
+    position: relative;
+  }
+  #rlower{
+    background-color: #9ccd3e;
+    float: right;
+  }
+  footer{
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+    position: relative;
+  }
+
+  #arr_l{
+    position: absolute;
+    top: 84px;
+    left: 15px;
+  }
+  #arr_r{
+    position: absolute;
+    top: 84px;
+    right: 15px;
+  }
+  a{
+  text-decoration: none;
+  color: inherit;
+  }
+
+  form{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  button{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+  }

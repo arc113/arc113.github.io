@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<style>
+
+		#d1{
+		background-color: #FF4DA3;
+		width: 100%;
+		height: 100px;
+		margin: 0px 0px 10px 0px;
+		display: inline-block;
+		
+		}
+
+		#d2{
+		background-color: #FF037E;
+		width: 65%;
+		margin: 0px 5px 10px 0px;
+		display: inline-block;		
+		}
+
+		#d3{
+		background-color: #CE0468;
+		width: 34%;
+		margin: 0px 0px 10px 0px;
+		display: inline-block;		
+		}
+
+		#d4{
+		background-color: #802755;
+		width: 100%;
+		display: inline-block;		
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	
+	<div id="d1"></div>
+	<div id="d2"></div>
+	<div id="d3"></div>
+	<div id="d4"></div>
+
+
+	<script>
+		var a = $(window).height();
+		a = 0.93*a;
+		h1 = h4 = a/5;
+		h2 = h3 = 3*a/5;
+
+		$("#d1").css("height", h1);
+		$("#d2").css("height", h2);
+		$("#d3").css("height", h3);
+		
+		$("#d4").css("height", h4);
+	</script>
+
+
+</body>
+
+</html>
