@@ -26,8 +26,8 @@
     <sidebar>
       <div id="banner">
       <h1> BANNER </h1>
-      <img id="arr_l" src="left.png">
-      <img id="arr_r" src="right.png">
+      <a href="#"> <img class="arrow" id="arr_l" src="left.png"> </a>
+      <a href="#"> <img class="arrow" id="arr_r" src="right.png"> </a>
       </div>
      </sidebar>
         
@@ -44,15 +44,17 @@
           
       <form>
       
-        <input type="text" /> <br>
-        <select>
+        <input class="f1" type="text" /> <br>
+        <input class="f1" type="text" /> <br>
+        <select class = "f1">
           <option value="1"> A </option>
-         </select>
-            
+        </select>
+         
+         <button class="bt" onclick="javascript:alert('Done')"> <span> <strong> Submit </strong> </span> </button>            
       </form>
       
-      
-      <button> Submit </button>
+
+
       
       
       </div>
@@ -71,9 +73,11 @@
       <li> <a href="#"> Profile </a> </li>
       <li> <a href="#"> Contact Us </a> </li>          
     </ul>
-
-    </footer>
+    
   
+    </footer>
+      
+    <button class="reset"> Reset </button>        
     
    	<script src="p.js"> </script>
    	
