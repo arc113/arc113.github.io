@@ -23,14 +23,15 @@
   }
    
   #head2 ul{
-     width: 60%;
-     height: 100%;
+    width: 60%;
+    height: 100%;
     display: flex;   
     justify-content: flex-end;
     float: right;
     margin: 0px;
     margin-right: 10%;
     color: #005b86;
+    
     }
   
   #head2 li{
@@ -53,7 +54,6 @@
     margin-bottom: auto;
     padding-right: 1%;
     padding-left: 1%;
-    height: 
   }
   li:hover{
     background-color: black;
