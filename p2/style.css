@@ -1,14 +1,18 @@
- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body{
 	margin:0;
 	padding:0;
+	width: 1400px;
+	font-family: 'Raleway', 'sans-serif';
 }
 
-.container{
-	width: 1000px;
+.hcontainer{
+	width: 1110px;
 	height: 70px;
 	margin: auto;
+
 }
 a{
 	text-decoration: none;
@@ -22,10 +26,11 @@ header{
 	font-size: 10pt;
 }
 
-/*#head_logo{
-	margin-left: 150px;
+
+#head_mail{
+	margin-top: 12px;
 }
-*/
+
 
 #head_mail{
 	float: right;
@@ -34,7 +39,6 @@ header{
 
 header ul{
 	float: right;
-	font-family: 'Montserrat', 'sans-serif';
 	margin: 0 20px 0 0;
 	height: 100%;
 	padding: 0;
@@ -63,6 +67,7 @@ header li:hover{
   	position: relative;
 }
 
+/*
 #p1_s2:before {
 	content: "";
 	position: absolute;
@@ -72,6 +77,101 @@ header li:hover{
 	right: 0;
 	background: rgba(10,29,55, 0.8);
 }
+*/
+
+.content{
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+//	height: 100% - 100px;
+//	margin-top: auto;
+//	margin-bottom: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#page1_content{
+	text-align: center;
+//	margin-top:220px;
+	width: 80%;
 
 
+}
 
+.heading{
+	font-size: 46pt;
+}
+
+.subheading{
+	font-size: 40pt;
+}
+.white{
+	color: white;
+}
+
+.purple{
+	color: #464662;
+}
+
+.pwidth{
+	width: 400px;
+}
+
+#para{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.round_button{
+	width: 150px;
+	display: inline-block;
+	background-color: transparent;
+	border: solid white 2px;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.round_button:hover{
+	background-color: #d0ab02;
+	border: solid #d0ab02 2px;
+}
+
+#scroll_arrow{
+	position: absolute;
+	bottom: 30px;
+}
+
+#p2{
+	height: 600px;
+}
+#block1{
+	position: absolute;
+	width: 40%;	
+	left:0px;
+	height: 370px
+}
+
+#block2{
+	position: absolute;
+	width: 55%;
+	height: 370px;
+	right: 0px;
+}
+
+ul{
+	list-style-type: none;
+	padding-left:0;
+}
+
+#block1 li{
+	padding: 15px 15px 15px 0;
+		
+}
+object{
+	float: left;
+	margin: -8px 15px 0px 0px;
+}
