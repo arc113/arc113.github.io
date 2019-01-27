@@ -1,0 +1,40 @@
+
+body{
+	margin: 0px;
+}
+
+.inline{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 1170px;
+}
+
+#lang_curr_set{
+	float: right;
+}
+
+#social_handles i{
+	border-right: solid 1px black;
+	padding-right: 7px;
+}
+
+#pre_header{
+	padding: 10px 0px 10px 0px;
+}
+
+#social_handles .fa-instagram{
+	border-right: 0px;
+}
+
+#lang{
+	border-right: solid 1px black;
+	padding-right: 7px;
+}
