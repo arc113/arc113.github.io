@@ -28,6 +28,7 @@ a{
 
 #pre_header{
 	padding: 10px 0px 10px 0px;
+	border-bottom: solid 1px black;
 }
 
 #social_handles .fa-instagram{
