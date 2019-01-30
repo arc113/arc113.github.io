@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+html{
+	font-size: 62.5%;
+}
 body{
 	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3rem;
+	letter-spacing: 0.05em;
 }
 
 .inline{
@@ -8,6 +15,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: inherit;
 }
 .container{
 	margin-left: auto;
@@ -22,13 +30,13 @@ a{
 }
 
 #social_handles i{
-	border-right: solid 1px black;
+	border-right: solid 1px #ccc;
 	padding-right: 7px;
 }
 
 #pre_header{
 	padding: 10px 0px 10px 0px;
-	border-bottom: solid 1px black;
+	border-bottom: solid 1px #ccc;
 }
 
 #social_handles .fa-instagram{
@@ -36,6 +44,77 @@ a{
 }
 
 #lang{
-	border-right: solid 1px black;
+	border-right: solid 1px #ccc;
 	padding-right: 7px;
+}
+
+header{
+	padding: 25px 0px;
+	text-align: center;
+	border-bottom: solid 1px #ccc;
+}
+
+header li{
+	display: inline-block;
+}
+#search_cart{
+	position: relative;
+	float: right;
+	bottom: 0.6rem;
+}
+#cart_container{
+	position: relative;
+	float: right;
+}
+#search{
+	position: relative;
+	float: right;
+	margin-bottom: 8px;
+}
+#cart_container sup{
+	width: 2rem;
+	height: 2rem;
+	color: white;
+	position: absolute;
+	left: 1.6rem;
+	top: -0.8rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	border-radius: 50%;
+	background-color: black;
+	line-height: 2rem;
+}
+header ul{
+	margin: 0px;
+	padding: 0px;
+}
+header img{
+	float: left;
+}
+header a{
+	padding: 0px 8px 0px 8px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+header li a:hover{
+	color: #f5a623;
+}
+a:focus {
+  outline: 0;
+}
+#search_cart .fa{
+	font-size: 3rem;
+	font-weight: 300;
+}
+.fa-shopping-cart{
+	color: #ccc;
+}
+header .fa:hover{
+	color: blue;
+}
+header .fa-search{
+	width: 4rem;
+	height: 4rem;
+	border: solid 2px #ccc;
+	border-radius: 100%;
 }
