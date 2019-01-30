@@ -69,7 +69,7 @@ header li{
 #search{
 	position: relative;
 	float: right;
-	margin-bottom: 8px;
+	margin-top: -5px;
 }
 #cart_container sup{
 	width: 2rem;
