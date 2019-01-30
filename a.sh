@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git status
+
 echo 'Commit message...?  '
 read message
 
