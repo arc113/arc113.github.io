@@ -1,0 +1,21 @@
+
+				<div class="container">
+
+					<div class="heading_main">
+						<h1>Awesome <BR/> New Collections 2019</h1>
+						<h2>Get 30% Discount Limited Time Only </h2>
+						<div class="button inline"> <a href="#"> PURCHASE NOW </a> </div>
+					</div>
+
+					<div class="left_angle_container"> <a href="#"> <i class="fa fa-angle-left"></i> </a> </div>
+					<div class="right_angle_container"> <a href="#"> <i class="fa fa-angle-right"></i> </a> </div>
+
+				</div>
+
+				<div class="slider_phases_element">
+					<ul>
+						<li> <a href="#" class="e1"> </a> </li>
+						<li> <a href="#" class="e2"> </a> </li>
+					</ul>
+				</div>
+

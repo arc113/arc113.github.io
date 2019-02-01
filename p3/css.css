@@ -122,29 +122,30 @@ header .fa-search{
 .slider{
 	height:61rem;
 	position: relative;
-	
 	width: 100%;
+	overflow: hidden;
 }
 
 .slider_images{
-	width: 200%;
 	height: 100%;
 	display: inline-block;
+	transition: transform ease 1s;
+	transform: translateX(0px);
+}
+
+.image{
+	background-size: cover;
+	height: 100%;
+	display: inline-block;
+	float: left;
 }
 .first{
 	background-image: url("images/background/b1.jpg");
-	background-size: cover;
-	height: 100%;
-	width: 1366px;
-	display: inline-block;
 }
 .second{
 	background-image: url("images/background/b2.jpg");
-	background-size: cover;
-	height: 100%;
-	width: 1345px;
-	display: inline-block;
 }
+
 .heading_main h1,h2{
 	font-weight: 400;
 }
@@ -156,7 +157,7 @@ header .fa-search{
 }
 
 .heading_main h2{
-	font-size: 1.8rem;
+	font-size: 2.4rem;
 	margin-top: 0;
 	margin-bottom: 30px;
 }
@@ -177,20 +178,41 @@ header .fa-search{
 .heading_main{
 	color: #2c2e3d;
 	position: absolute;
-	top: 150px;
+	top: 175px;
 }
 
 .left_angle_container{
-	position: absolute;
-	
-	border-radius: 50%;
-	left:10px;
+	position: absolute;	
+	left:1rem;
 	top: 47%;
 }
+
+.left_angle_container .fa:hover{
+	transform: translateX(-2rem);
+}
+.right_angle_container .fa:hover{
+	transform: translateX(2rem);
+}
+
 .right_angle_container{
 	position: absolute;
-	
-	border-radius: 50%;
-	right: 10px;
+	right: 1rem;
 	top: 47%;
+}
+.slider .fa{
+	text-align: center;
+	line-height: 4.5rem;
+	width: 5rem;
+	height: 5rem;
+	font-size: 2rem;
+	color: white;
+	border-radius: 50%;
+	background-color: black;
+	cursor: pointer;
+	opacity: 0.3;
+	display: none;
+	transition: all 1s;
+}
+.slider .fa:hover{
+	opacity: 1;
 }
