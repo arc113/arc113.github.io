@@ -1,0 +1,12 @@
+
+
+#navigation_bar li{
+	display: inline-block;
+}
+
+#navigation_bar li a{
+	background-color: lightblue;
+	padding: 30px;
+	text-decoration: none;
+	color: inherit;
+}
