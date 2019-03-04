@@ -46,10 +46,10 @@ $(function () {
               var current = parseInt(values[4]);
               console.log("HIdd");
               if (current == -1*slider_images_width+width){
-              	$(".slider .right_angle_container .fa:hover").css("background-color","red");
+              	$("#RX").css("background-color","red");
                 return;
             	}
-			  $(".slider .fa:hover").css("background-color","blue");
+		$("#LX").css("background-color","black");
               var final = current + a;
               console.log(final);
                 $(".slider_images").css("transform", "translateX("+final+"px)");
@@ -78,10 +78,10 @@ $(function () {
   		        var current = parseInt(values[4]);
   		        $(".slider .left_angle_container .fa").css("background-color","black");
   		        if (current == 0){
-  		        	$(".slider .left_angle_container .fa:hover").css("background-color","red");
+  		        	$("#LX").css("background-color","red");
   		        	return;	
   		        }
-                $(".slider .fa:hover").css("background-color","blue");
+                $("#RX").css("background-color","black");
   		        var final = current - a;
   		        console.log(final);
               $(".slider_images").css("transform", "translateX("+final+"px)");
